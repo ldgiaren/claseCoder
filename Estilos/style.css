@@ -1,0 +1,197 @@
+
+
+dialog  { /* diseño de recuadro con advertencia y su funcion  */
+    font-weight: 600px;
+    border-style:none;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    color: rgb(196, 47, 10);
+    
+    
+    
+}
+
+header section  {
+    object-fit: cover;
+}
+
+dialog button {
+    border-width: 1px;
+   }
+/*
+section img {
+    margin-left:12%;
+    
+}*/
+
+section1{ /* se mueve barra de botones */
+    margin-left: 25%;
+}
+
+body { /*color principal y de respaldo del body*/
+    background: rgb(116, 142, 151);
+    background: oklch(29.84% 0 0)
+}
+
+body header section1 button { /*diseño de los botones del header*/
+    position: sticky;
+    top: 0;
+    margin-left: 16px; 
+    color: rgb(221, 168, 34);
+    color:rgb(185, 166, 137);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(23, 23, 23);
+    border-style:none ;
+    padding: 6px;
+    border-radius: 10px;
+    margin-top: 1%;
+    
+
+}
+
+body header section1 select { /*diseño del boton MENU del header*/
+    position: sticky;
+    top: 0;
+    margin-left: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style:none ;
+    padding: 6px;
+    color: rgb(221, 168, 34);
+    color:rgb(185, 166, 137);
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+    margin-top: 1%;
+   
+}
+
+
+
+body a{ /*diseño de las etiquetas a del body*/
+    text-decoration: none;
+    color: rgb(221, 168, 34);
+    color:rgb(185, 166, 137);
+}
+
+main{ /*se mueve todo lo del main*/
+    padding: 50px 100px;
+}
+
+main article { /*se da estilo al article del main*/
+    
+    color: rgb(185, 166, 137);
+    border-radius: 10px;
+    padding: 9px;
+    box-shadow: 0 0 11px 8px rgb(152, 40, 10, 1); /*los valores 0 0 20px 10px son para tamaño de sombra y difuminado*/
+}
+
+
+main section{
+    margin-top: 5%;
+    color: rgb(185, 166, 137);
+    border-radius: 10px;
+    padding: 9px;
+    box-shadow: 0 0 11px 8px rgba(152, 40, 10, 1); /*los valores 0 0 20px 10px son para tamaño de sombra y difuminado*/
+}
+
+.realce:hover{ /*clase para que apenas se pase el puntero realce un color por el elemento*/
+    color: rgb(255, 231, 96);
+    }
+    
+.centrofooter{
+    padding: 5px;
+    background: black;
+    margin-top: 2%;
+    font-size: 10px;
+    text-align: center;
+    color:white ;
+}
+
+.contenedorflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+
+}
+
+* li{
+    list-style-type: none;
+}
+
+
+/*header*/
+
+header nav ul li{
+    padding: 5px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px ;
+    
+
+}
+ul select{
+    border-style: none;
+    border-radius: 10px ;
+    background: rgb(23, 23, 23);
+    color: rgb(185, 166, 137)
+    
+    
+}
+
+/* HTML-ENTRADAS / menu entradas */
+
+.ENTRADAS{
+    margin: -1%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color:black;
+    }
+
+main1 div{
+    text-align: center;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+main1 ul{
+    text-align: center;
+    color: aliceblue;
+}
+
+main1 ul li{
+    display: block;
+    margin-bottom: 18px; /* Añadir un margen de 10px entre cada elemento */
+}
+
+main1 aside dl{ /*se aplico a lista de comidas en platosF*/
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+main1 aside dl dd{ /*se aplico a lista de comidas en platosF*/
+    display: block;
+    margin-bottom: 18px; /* Añadir un margen de 10px entre cada elemento */
+}
+
+main1 aside div p{
+    margin: 2% 10% 2% 10%;
+   
+    height: 90px;
+    padding: 7px; 
+    background-color: rgb(71, 66, 66);
+    border-style: none;
+    font-size: 22px;
+    border-radius: 10px;
+    color: rgb(216, 236, 254);
+}
+
+main1 sectionF fieldset label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(216, 236, 254);
+    
+}
+

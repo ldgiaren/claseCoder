@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!----------------------------------------inici-head-------------------------------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estilos/style.css">
+    <script src="https://kit.fontawesome.com/4cb147f19a.js" crossorigin="anonymous"></script>
+    <!--Fuentes de googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Especiales</title>
+    <link rel="icon" href="/iconos/3d-fire.png">
+</head><!----------------------------------------fin-head-------------------------------------------->
+
+<body> <!----------------------------------------inicio-cuerpo-body------------------------------------------->
+    
+    <dialog id="dialog" open> <!-----------recuadro con advertencia y su funcion --------------->
+        <P>BIENVENIDOS A JP</P>
+        <p>Tener en cuenta que se cierra a las 11pm la toma de pedidos.</p>
+        <button id="hide">X</button>
+    </dialog>
+    <script>
+        window.hide.addEventListener ('click', () => {
+            window.dialog.close()
+        })
+    </script> <!-----------recuadro con advertencia y su funcion --------------->
+
+    <header> <!---------------------------------------inici--header-body------------------------------------------->
+
+        <section> <!--------------------------------imagen del header------------------------------------------->
+            <img src="/img/platoF4.jpg" alt="Cargando" title="JP" width="100%%" height="350px">
+        </section><!----------------------------------imagen del header------------------------------------------->
+        
+        <nav> <!-------------------------------------botones del header------------------------------------------->
+            <ul class="ENTRADAS">
+                <li><a class="realce" href="">Español</a></li>
+                <li><a class="realce" href="">English</a></li>
+                <li><a class="realce" href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+                <select class="realce" name="Menu" id="Menu" onchange="window.open(this.value, '_blank')">
+                    <option class="realce" >Menú:</option>
+                    <option value="http://127.0.0.1:5500/pages/entradas.html">Entradas</option>
+                    <option value="http://127.0.0.1:5500/pages/platosFuertes.html">Platos Fuertes</option>
+                    <option value="http://127.0.0.1:5500/pages/especiales.html">Especiales</option>
+                    <option value="http://127.0.0.1:5500/pages/menuinfantil.html">Menú Infantil</option>
+                    <option value="http://127.0.0.1:5500/pages/bebidas.html">Bebidas</option>
+                </select>
+            </ul>
+        </nav><!----------------------------------------botones del header-------------------------------------------> 
+    </header> <!---------------------------------------fin--header-body------------------------------------------->
+
+    <main1> <!-------------------------------------inicio-main-del-boy------------------------------------------------->
+       <div>
+         <p>Platos Especiales:</p>
+       </div>
+
+       <aside>
+        <dl>
+            <dt><i class="fa-solid fa-camera"></i> 1. Bandeja paisa....................................$50.000</dt>
+                <dd>Frijol, chicharrón, chorizo, morcilla, carne molida. Acompañado de arroz y aguacate
+
+                    Disponible solo domingos y lunes festivos</dd>
+
+            <dt><i class="fa-solid fa-camera"></i> 2.Cazuela de frijol...................................$37.000</dt>
+                <dd>Frijol, chicharrón, chorizo, maduro, aguacate y ripio de papa. Acompañado de arroz y ensalada
+
+                    Disponible solo domingos y lunes festivos</dd>
+
+            <dt><i class="fa-solid fa-camera"></i> 3.Pollo en salsa de salmón.......................$62.000</dt>
+                <dd>Pechuga a la parrilla y trozos de salmón en salsa, acompañado de ensalada de la casa y papa rústica.
+
+                    Solomito en salsa de champiñones</dd>
+
+            <dt><i class="fa-solid fa-camera"></i> 4.Medallones de solomito a la pimienta....$59.000</dt>
+                <dd>Acompañada con ensalada cesar, arepa y papa al vapor</dd>
+            
+        </dl>
+       </aside>
+
+    </main1><!-------------------------------------fin-main-del-boy------------------------------------------------->
+
+    
+</body>  <!---------------------------------------fin-cuerpo-body------------------------------------------->
+
+<footer> <!-------------------------------------inicio-footer----------------------------------------->
+    <nav class="contenedorflex">
+        <ul> 
+            <li ><a class="realce" href=""><h4>Nuestras redes y Dirección:</h4> </a></li>
+            <li> <i class="fa-brands fa-whatsapp"></i> <a class="realce" href="https://wa.me/573208856201" target="_blank">Whatsapp </a></li>
+            <li> <i class="fa-brands fa-instagram"></i> <a class="realce" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li> <i class="fa-brands fa-linkedin-in"></i> <a class="realce" href="https://www.linkedin.com/in/leon-daniel-gil-arenas-403901252/" target="_blank">linkedin</a></li>
+            <li> <i class="fa-solid fa-headset"></i> <a class="realce" href="Tel:57 320 885 6201">Tel:57 320 885 6201</a></li>
+        </ul>
+        <iframe 
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8388149075663!2d-75.5618861!3d6.152336399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683675f3383bb%3A0xfd4c84c9cb449c1d!2sMahalo%20Oficial%20Envigado!5e0!3m2!1ses!2sco!4v1711077142806!5m2!1ses!2sco"
+			width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade">
+		</iframe>
+    </nav>
+
+    <div class="centrofooter" ><!-----------------------------------Datos legales-footer------------------------------------->
+        <header>Información Legal:</header>
+        <p>© Copyright JP Colombia. Todos los derechos reservados
+        y tambien los izquierdos,
+        Políticas de Tratamiento de datos.
+        </p>
+    </div>
+</footer><!------------------------------------fin-Datos legales-footer------------------------------------->
+    
+</html>     
+        
+        
+          
+            
+            
+    
+    
+        
+       
+
+    
+
+    
